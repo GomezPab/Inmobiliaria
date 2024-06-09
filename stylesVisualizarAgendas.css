@@ -1,0 +1,67 @@
+* {
+    text-align: center;
+}
+
+.container{
+    background: rgb(195, 201, 192);
+    padding: 25% 10%;
+    max-width: 800;
+    height: 500;
+}
+.inmobiliaria{
+    background: #1e6333;
+    padding: 12px 15px;
+    margin-top: -28%;
+    color: aqua;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 50px;
+}
+.texto{
+    background: fixed rgb(5, 170, 19);
+    padding: 5px 10px;
+    margin-top: -3%;
+    color: white;
+}
+table { border-collapse: collapse separate;
+     margin: 25px 0px;
+     margin-top: -2%;
+      font-size: 1em;
+       font-family: sans-serif;
+        min-width: 100%;
+         box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+        }
+
+table thead tr { background-color: #e0f526;
+     color: #070303; 
+     text-align: middle; }
+
+table th, table td { padding: 12px 15px;
+ }
+
+table tbody tr { border-bottom: 1px solid #dddddd; } 
+table tbody tr,td:nth-of-type(even) { background-color: #f3f3f3; }
+table tbody tr:last-of-type { border-bottom: 2px solid #009879; }
+
+.eliminar{
+    position: absolute;
+    background-color: #058b05;
+    margin-top: -11.7%;
+    padding: 14px 38px;
+    margin-left: 407px;
+    border: #daec0b;
+    color: #dddddd;
+}
+
+.cerrar{
+    width: 50px;
+    height: 50%;
+    position: relative;
+    right: -47.6%;
+    top:  -335px;
+    padding: 8px;
+    background: rgb(10, 1, 1);
+    color: white;
+    border-radius: 5% ;
+    text-decoration: none;
+    
+}

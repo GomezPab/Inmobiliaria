@@ -1,0 +1,106 @@
+
+
+.container-all{
+    display: flex;
+ 
+}
+
+.tituloin{
+    
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -5%;
+    background: #06b323;
+    padding: 20px;
+}
+.contenedores{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    
+}
+.iniciar{
+    background: #099c21;
+    padding: 10px 79px;
+    text-transform: uppercase;
+    border: 2px solid #11f72f;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    border-radius: 2px;
+    margin-top: 2%;
+}
+.rescon{
+    background: #1477e7;
+    padding: 10px 38px;
+    text-transform: uppercase;
+    border: 2px solid #2c8efd;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    border-radius: 2px;
+}
+.olvcon{
+    margin-top: 3%;
+    font-size: 20px;
+    text-transform: lowercase;
+    font-weight: normal;
+}
+.noreg{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 20px;
+    text-transform: lowercase;
+    font-weight: normal;
+
+}
+.reg{
+    background: #105cb3;
+    padding: 10px 93px;
+    text-transform: uppercase;
+    border: 2px solid #197ef1;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    border-radius: 2px;
+}
+.clave{
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.correo{
+    margin-top: 5%;
+}
+
+.popup{
+    margin-top: 20%;
+    width: 50%;
+    max-width: 800px;
+    height: 500px;
+    position: relative;
+    
+    background: #8d9b8c;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.container-text{
+    
+    text-align: center;
+}
+.cerrar{
+    width: 50px;
+    height: 50%;
+    position: relative;
+    right: -46.3%;
+    top:  0px;
+    padding: 8px;
+    background: rgb(10, 1, 1);
+    color: white;
+    border-radius: 5% ;
+    text-decoration: none;
+    
+}
+

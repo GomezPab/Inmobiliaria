@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylespaginachat.css">
+    <title>Chat</title>
+</head>
+<body bgcolor="#EBE6E5">
+
+
+    <div class="container-all" id="modal">
+          <div class="popup" id="modal2">
+              <div  class="container-text">
+                    <form action="pagina principal web oficial .html"><button class="cerrar">X</button>
+                    </form>         
+                    <h1 class="tituloin"><b>Chatea con nosotros</b></h1>
+                 <div id="chat-container">
+                 <div id="chat-messages"></div>
+                </div>
+                <input type="text" id="user-input" placeholder="Iniciar chat">
+                <button onclick="sendMessage()" class="enviar">Enviar</button>
+              
+
+                </div>
+              
+            </div>
+      </div>
+    <script>
+        function sendMessage() {
+            var message = document.getElementById('user-input').value;
+            if (message.trim() !== '') {
+                var chatMessages = document.getElementById('chat-messages');
+                var newMessage = document.createElement('div');
+                newMessage.textContent = message;
+                chatMessages.appendChild(newMessage);
+                document.getElementById('user-input').value = '';
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+        }
+    </script>     
+      
+    
+    
+</body>
+</html>

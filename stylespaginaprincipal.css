@@ -1,0 +1,296 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+  }
+
+.inmobiliaria {
+    text-align: left;
+    font-size: 50px;
+    color: #7ef0f8;
+    margin-left: 30px;
+}
+.inmobiliaria{
+    margin-top: 20px;
+}
+body{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    
+    width: 100%;
+    z-index: 100;
+    margin-top: 20px;
+}
+.navbar{
+       display:block;
+         margin-right: 10px;
+}
+.bot {
+    margin-left: 30px;
+    ;
+}
+.bot a {
+    padding: 23px 20px ;
+    text-decoration: none;
+    color: #070000;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+.bot a:hover{
+    background: #1ae04c;
+}
+.navbar a {
+    display: flex;
+    padding: 23px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #070000;
+    
+
+}
+.navbar a:hover{
+    background: #5ef166;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+margin-bottom: 40px;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.opc{
+    text-align: left;
+    background: #f5f4f4;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+}  
+.clas{
+    background:  #f5f4f4;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 2px solid #000000
+}
+.logo{
+    background: #f5f4f4;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 2px solid #070707;
+}  
+    
+.imagen{
+    margin: 24px;
+}
+.imag{
+    width: 100;
+    height: 41;
+}
+.agend{
+    margin: 20px;
+}
+
+
+
+.fot{
+    margin-left: 15px;
+    background: fixed #f5f4f4;
+    padding: 10px 10px;
+    
+    
+}
+.title{
+    margin-left: 30px;
+    text-transform:initial;
+}
+.subtitle{
+    margin-left: 30px;
+    text-transform: initial;
+}
+.agenda{
+    background: #06b323;
+    padding: 10px 40px;
+    border: 2px solid #11500c;
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-align:center;
+    border-radius: 5px;
+}
+.parr{
+    font-weight: normal;
+    margin-left: 0px;
+    width: 70%;
+}
+
+.botgen{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.regi{
+    display: flex;
+    background: #0727df;
+    border: 2px solid #000000;
+    padding: 10px 46px;
+    
+    margin-right: 40;
+    
+}
+.inises{
+    background: #02ac1e;
+    border: 2px solid#000000;
+    padding: 10px 35px;
+    
+    margin-right: 40px;
+    
+}
+.chat{
+    background: #11500c;
+    padding: 15px 15px;
+    border-radius: 20px;
+    border: 2px solid#000000;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    margin-top: -4.5%;
+    
+}
+.cht{
+    text-align: right;
+    margin-right: 10%;
+
+    
+}
+.iconfaceb{
+   background:fixed;
+   margin-right: 5%;
+}
+
+
+
+
+/* container*/
+
+.container-all{
+    display: flex;
+ 
+}
+
+.titulo{
+    
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -3.3%;
+    background: #06b323;
+    padding: 20px;
+}
+.contenedores{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    
+}
+.iniciar{
+    background: #099c21;
+    padding: 10px 79px;
+    text-transform: uppercase;
+    border: 2px solid #11f72f;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    border-radius: 2px;
+    margin-top: 2%;
+}
+.rescon{
+    background: #1477e7;
+    padding: 10px 38px;
+    text-transform: uppercase;
+    border: 2px solid #2c8efd;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    border-radius: 2px;
+}
+.olvcon{
+    margin-top: 3%;
+    font-size: 20px;
+    text-transform: lowercase;
+    font-weight: normal;
+}
+.noreg{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 20px;
+    text-transform: lowercase;
+    font-weight: normal;
+
+}
+.reg{
+    background: #105cb3;
+    padding: 10px 93px;
+    text-transform: uppercase;
+    border: 2px solid #197ef1;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    border-radius: 2px;
+}
+.clave{
+    margin-left: 0%;
+    margin-top: 2%;
+}
+.correo{
+    margin-top: 5%;
+}
+
+.popup{
+    margin-top: 20%;
+    width: 50%;
+    max-width: 800px;
+    height: 500px;
+    position: relative;
+    
+    background: #8d9b8c;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.container-text{
+    
+    text-align: center;
+}
+.cerrar{
+    width: 50px;
+    height: 50%;
+    position: relative;
+    right: -46,3%;
+    top:  0px;
+    padding: 8px;
+    background: rgb(10, 1, 1);
+    color: white;
+    border-radius: 5% ;
+    text-decoration: none;
+    
+}
+
